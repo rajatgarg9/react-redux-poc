@@ -1,0 +1,18 @@
+/**
+ * set the container padding and its inner content
+ *
+ * @author Rajat
+ * @group modules
+ *
+ * @param {number} $padding(1%) - define padding for element
+ * @param {colorn name,color value} $bgcolor ($gainsboro) - define backgroung color for container
+ *
+ * @example scss
+ *  productsContainer(22px,blue)
+ */
+@mixin productsContainer($padding:1%,$bgcolor:$gainsboro){
+    display: flex;
+    justify-content: space-around;
+    padding:$padding;
+    background-color:$bgcolor;
+}

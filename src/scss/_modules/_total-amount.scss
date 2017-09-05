@@ -1,0 +1,12 @@
+#total-amount-displayer-container{
+    &{
+        padding: 2% 0%;
+    }
+    .amount-displayer{
+        background: $total-amount-displayer-bgcolor;
+        padding: 0px 15px;
+        display: inline-block;
+        color: $total-amount-displayer-fontcolor;
+        border-radius:$total-amount-displayer-border;
+    }   
+}

@@ -1,0 +1,5 @@
+#selected-item-container-comp{
+      .selected-item-container{
+           @include productsContainer(1%,$darkseagreen);
+      }
+}

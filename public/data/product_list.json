@@ -1,0 +1,34 @@
+{
+    "product_list":[
+        {
+            "id":"1",
+            "product_name":"Product A",
+            "product_price":"250",
+            "product_img":"http://placehold.it/150/bc4125/ffffff"
+        },
+        {
+            "id":"2",
+            "product_name":"Product B",
+            "product_price":"350",
+            "product_img":"http://placehold.it/150/1b21a0/ffffff"
+        },
+        {
+            "id":"3",
+            "product_name":"Product C",
+            "product_price":"450",
+            "product_img":"http://placehold.it/150/5abc25/ffffff"
+        },
+        {
+            "id":"4",
+            "product_name":"Product D",
+            "product_price":"650",
+            "product_img":"http://placehold.it/150/ebf742/ffffff"
+        },
+        {
+            "id":"5",
+            "product_name":"Product E",
+            "product_price":"750",
+            "product_img":"http://placehold.it/150/d121c8/ffffff"
+        }
+    ]
+}

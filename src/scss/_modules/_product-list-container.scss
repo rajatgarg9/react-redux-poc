@@ -1,0 +1,5 @@
+#product-list-container{
+    .product-items-list{
+        @include productsContainer(15px,$gainsboro);
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "global_keys": {
+        "remove_item": "Remove item",
+        "add_item": "Add to cart",
+        "dolar_symbol":"$",
+        "shopping_cart":"Shopping Cart"
+    }
+}

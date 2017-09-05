@@ -1,0 +1,14 @@
+// 1.Config
+$body-bgcolor: $beige !default;
+
+// 2.Base
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $body-bgcolor;
+}
+
+
