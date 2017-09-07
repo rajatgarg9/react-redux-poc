@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import ProductItemCard from "./Product_item_card";
+import ProductItemCard from "../containers/Product_item_card";
 
 export const SelectedItemContainer = (props) => {
 
