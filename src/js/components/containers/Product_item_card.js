@@ -5,16 +5,11 @@ import {connect} from "react-redux";
 
 import _ from "lodash";
 
-//actions
-// import {productBtnHandler} from "../../actions/productCardActions";
-
 class ProductItemCard extends React.Component {
 
     constructor(props) {
         super();
     }
-
-
 
     /**
         * Fire when click on "Add to Cart" and "Remove Cart" button and update total price of cart and Update number of selected item in cart 
@@ -34,32 +29,13 @@ class ProductItemCard extends React.Component {
         }
     }
 
-    /**
-        * on Call will  change the Product button color and text
-        * @param {string} newClass -- set bgcolor of product button based on applied class
-        * @param {string} buttonText -- set text of product button based on arguments
-        * @return {undefined} 
-     */
-    // cartButtonStateSetter(newClass, buttonText) {
-    //     this.props.setProductBtn(
-    //         {
-    //         text: buttonText, 
-    //         class:newClass
-    //     }
-    // )
-    // }
+    
     /**
         * Componet life cycle function and will change product button text and color based on the props
         * @param {object} nextProps  -- contain all the new props
         * @return {undefined} 
      */
-    componentWillReceiveProps(nextProps) {
-        //console.log(nextProps.productItemCardButtonClass, nextProps.productItemCardButtonText);
-          //  this.cartButtonStateSetter(nextProps.productItemCardButtonClass, nextProps.productItemCardButtonText);
-    }
-
-
-
+    
     render() {
         return (
         <div id="product-card-comp">    
@@ -86,26 +62,7 @@ class ProductItemCard extends React.Component {
     }
 }
 
-// const mapStateToProps =(state) =>{
-//     return{
-//         productCard:state.productCard,
-//     };
-// };
-
-// const mapDispatchToProps =(dispatch) =>{
-//     return{
-//         setProductBtn:(btnObj) =>{
-//             dispatch(productBtnHandler(btnObj));
-//         }
-//     };
-// };
-
-
-// export default connect(mapStateToProps,mapDispatchToProps)(ProductItemCard);
 export default ProductItemCard;
-
-
-// export default ProductItemCard;
 
 ProductItemCard.propTypes = {
     productItemCardButtonText: PropTypes.string,
