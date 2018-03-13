@@ -15,7 +15,8 @@ render(
     <Provider store={store}>
         <App />
     </Provider>
-    , document.getElementById('cart-app'));
+    , document.getElementById('cart-app')
+);
 
 
 registerServiceWorker();

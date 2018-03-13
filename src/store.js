@@ -1,16 +1,21 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import logger from 'redux-logger';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
-import math from "./js/reducers/mathReducer";
-import user from "./js/reducers/userReducer"
+import app from "./js/reducers/appReducer";
+import ajax from "./js/reducers/ajaxReducer";
+import productCard from "./js/reducers/productCardReducer";
 
 
 
 export default createStore(
     combineReducers({
-        math,
-        user
+        app,
+        ajax,
+        productCard
     }),
     {},
-    applyMiddleware(logger)
+    composeWithDevTools(
+        applyMiddleware(logger),
+      )
 );
